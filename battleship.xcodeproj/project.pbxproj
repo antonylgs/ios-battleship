@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA03797E2C21B0A300162345 /* HardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03797D2C21B0A300162345 /* HardViewController.swift */; };
+		EA0379802C21DC6600162345 /* HardGuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03797F2C21DC6600162345 /* HardGuessViewController.swift */; };
 		EAA56D112C12F05500DE79D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA56D102C12F05500DE79D6 /* AppDelegate.swift */; };
 		EAA56D132C12F05500DE79D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA56D122C12F05500DE79D6 /* SceneDelegate.swift */; };
 		EAA56D152C12F05500DE79D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA56D142C12F05500DE79D6 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA03797D2C21B0A300162345 /* HardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardViewController.swift; sourceTree = "<group>"; };
+		EA03797F2C21DC6600162345 /* HardGuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardGuessViewController.swift; sourceTree = "<group>"; };
 		EAA56D0D2C12F05500DE79D6 /* battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA56D102C12F05500DE79D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA56D122C12F05500DE79D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				EAA56D242C12F3E500DE79D6 /* EasyViewController.swift */,
+				EA03797F2C21DC6600162345 /* HardGuessViewController.swift */,
 				EAD9E4492C1383BD009EF7DA /* FinalViewController.swift */,
 				EAA56D262C131A1400DE79D6 /* EasyGuessViewController.swift */,
+				EA03797D2C21B0A300162345 /* HardViewController.swift */,
 				EAA56D102C12F05500DE79D6 /* AppDelegate.swift */,
 				EAA56D122C12F05500DE79D6 /* SceneDelegate.swift */,
 				EAA56D142C12F05500DE79D6 /* ViewController.swift */,
@@ -152,6 +158,8 @@
 				EAA56D252C12F3E500DE79D6 /* EasyViewController.swift in Sources */,
 				EAA56D152C12F05500DE79D6 /* ViewController.swift in Sources */,
 				EAA56D112C12F05500DE79D6 /* AppDelegate.swift in Sources */,
+				EA0379802C21DC6600162345 /* HardGuessViewController.swift in Sources */,
+				EA03797E2C21B0A300162345 /* HardViewController.swift in Sources */,
 				EAA56D132C12F05500DE79D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
