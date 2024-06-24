@@ -16,7 +16,9 @@ class HardViewController: UIViewController {
     @IBAction func goHomeClicked(_ sender: Any) {
         self.dismiss(animated: true)
     }
+    
     var timer: Bool = false
+    var soloGame: Bool = false
     
     @IBAction func validateButtonClick(_ sender: Any) {
         self.performSegue(withIdentifier: "goToHardGuess", sender: self)
@@ -43,6 +45,10 @@ class HardViewController: UIViewController {
     func buttonClicked(_ id: Int, sender: UIButton) {
         
         if (selectedCells.count == boatRequiredSize) {
+            return
+        }
+        
+        if (selectedCells.contains(id)) {
             return
         }
         
